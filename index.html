@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Kalkulator</h1>
+    <form>
+      <label for="angka1">Masukan Angka ke-1 :</label>
+      <input type="number" id="angka1" /><br /><br />
+
+      <label for="operator">Operator</label>
+      <select name="operator" id="operator">
+        <option value="tambah">+</option>
+        <option value="kurang">-</option>
+        <option value="kali">x</option>
+        <option value="bagi">:</option></select
+      ><br /><br />
+
+      <label for="angka2">Masukan Angka ke-2 :</label>
+      <input type="number" id="angka2" /><br /><br />
+
+      <button type="button" onclick="Hitung()">Hitung</button><br /><br />
+
+      <label for="hasil">Hasil :</label>
+      <input type="text" id="hasil" readonly />
+    </form>
+    <script src="./script.js`"></script>
+  </body>
+</html>
